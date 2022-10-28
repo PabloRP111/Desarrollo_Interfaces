@@ -77,7 +77,7 @@ public class Temporada {
 
 	@Override
 	public String toString() {
-		return "Temporada id=" + id + ", num_temporada=" + num_temporada + ", titulo=" + titulo + ", serie=" + serie.getTitulo();
+		return "Temporada id=" + id + ", num_temporada=" + num_temporada + ", titulo=" + titulo + ", serie=" + serie.getId();
 	}
 	
 	
