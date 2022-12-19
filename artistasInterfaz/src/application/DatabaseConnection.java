@@ -1,15 +1,17 @@
-package util;
+package application;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class DatabaseConnection {
-Connection connection;
+
+	Connection connection;
 	
 	public Connection getConnection () {
-		String dbName = "bd_series";
+		String dbName = "bd_artistas_canciones";
 		String userName = "root";
-		String password = "admin";
+		String password = "Berserk111";
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
