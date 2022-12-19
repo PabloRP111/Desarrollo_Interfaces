@@ -1,4 +1,4 @@
-package prZoologicoDAO;
+package application;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,7 +9,7 @@ public class DatabaseConnection {
 	Connection connection;
 	
 	public Connection getConnection () {
-		String dbName = "bd_zoologico";
+		String dbName = "bd_libros";
 		String userName = "root";
 		String password = "admin";
 		
